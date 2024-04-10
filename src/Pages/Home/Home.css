@@ -1,0 +1,24 @@
+/* .home-container {
+  padding: 0 5vw;
+} */
+.page-title {
+  text-align: center;
+}
+.movies-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 0 5%;
+}
+@media screen and (max-width: 768px) {
+  .movies-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 468px) {
+  .movies-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
