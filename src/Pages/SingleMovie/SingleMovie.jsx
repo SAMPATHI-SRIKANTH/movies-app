@@ -25,11 +25,11 @@ const SingleMovie = () => {
         <div className="single-movie-details">
           <div className="content">
             <div className="content-header">
-              {/* <img
-              src={`https://image.tmdb.org/t/p/w500${content.poster_path}`}
-              alt=""
-              width={150}
-            /> */}
+              <img
+                src={`https://image.tmdb.org/t/p/w500${content.poster_path}`}
+                alt=""
+                width={150}
+              />
               <div>
                 <h1>
                   {content.title || content.name || content.original_title}
